@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header start */
+header{
+    background-color: #19142A;
+    padding: 50px 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: .3s;
+}
+.menu a:hover{
+    color: orange;
+    margin-left: 40px;
+}
+.DownloadBtn{
+    background-color: orange;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color:#19142A !important;
+}
+/* header end  */
+
+/* banner start  */
+.banner{
+    background-color: #19142A;
+    padding: 100px 0;
+}
+.banner_content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.banner_img{
+    
+}
+.banner_img img{
+    border: 10px solid orange;
+    border-radius: 50px;
+    width: 100%;
+}
+.welcomeText{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.100);
+}
+
+.banner_text{
+    color: white;
+}
+.orangeText{
+    color: orange;
+}
+.banner_text h2{
+    font-size: 48px;
+    margin: 15px 0 0 0;
+}
+.banner_text h5{
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}
+.banner_text p{
+    margin: 50px 0 0 0;
+    font-weight: 500;
+    padding: 0 40% 0 0;
+}
+.socialMedia{
+    text-align: center;
+    margin-top: 170px;
+}
+.socialMedia a{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    transition: .3s;
+}
+.socialMedia a:hover{
+    color: orange;
+}
+/* banner end  */
+
+
+.blankColor{
+    height: 50px;
+    background-color: #2A2344;
+}
+
+/* portfolio section start */
+.portfolio{
+    padding: 100px 0;
+    background-color: #19142A;
+}
+.portfolioContent{}
+.portfolioText h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
+.portfolioText p{
+    color: white;
+    padding: 0 50% 0 0;
+}
+.portfolioCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px 0;
+}
+.card{
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+    position: relative;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h2{
+    color: white;
+    font-weight: 500;
+}
+.card:hover .code{
+    display: block;
+}
+
+.code {
+    background-color: #19142A;
+    padding: 0 10px;
+    border-radius: 5px;
+	text-decoration: none;
+	font-size: 30px;
+	position: absolute;
+	display: none;
+	top: 25px;
+	right: 25px;
+}
+.code a{
+    color: white;
+}
+#javaScript{
+    background-color: #2A2344;
+}
+/* portfolio section end */
+
+/* contact section start  */
+.contact{
+    background-color: #19142A;
+    padding: 60px 0;
+}
+.contactTitle{
+
+}
+.contactTitle h2{
+    color: white;
+    font-size: 40px;
+}
+.contactTitle p{
+    color: white;
+    padding: 0 65% 0 0;
+    margin-bottom: 50px;
+}
+.contInfo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.contIcon i{
+    font-size: 30px;
+    color: orange;
+}
+.contText{
+    margin-left: 20px;
+}
+.contText p{
+    color: gray;
+}
+.contText h3{
+    font-weight: 500;
+}
+/* contact section end */
+
+
+
+/* footer start */
+footer{
+    background-color:#2A2344;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+}
+/* footer */
