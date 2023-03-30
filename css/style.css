@@ -46,9 +46,10 @@ header{
     background-color: #19142A;
     padding: 100px 0;
 }
-.banner_content{
+.banner_content {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
 .banner_img{
     
