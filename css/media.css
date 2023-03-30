@@ -415,7 +415,44 @@
 @media only screen and (min-width: 768.99px) and (max-width: 992px){
     
 }
-@media only screen and (min-width: 992.99px) and (max-width: 1200px){
+@media only screen and (min-width: 992.99px) and (max-width: 1024px){
+    .DownloadBtn {
+        padding: 15px 20px;
+    }
+
+
+    .banner_content {
+        grid-template-columns: 3fr 2fr;
+    }
+    .banner_text p {
+        padding: 0 0% 0 0;
+    }
+    .banner_text h2 {
+        font-size: 34px;
+    }
+    .banner_text h5 {
+        font-size: 22px;
+    }
+    .socialMedia {
+        margin-top: 40px;
+    }
+    #resumeBtn a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+
+
+
+    .portfolioCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contactTitle p {
+        padding: 0 34% 0 0;
+    }
+}
+@media only screen and (min-width: 1024.99px) and (max-width: 1200px){
     
 }
 @media only screen and (min-width: 1200.99px) and (max-width: 1440px){
