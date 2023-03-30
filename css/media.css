@@ -119,6 +119,9 @@
     .menu a:last-child {
         margin-left: 0;
     }
+    #smallResume{
+        display: none;
+    }
     
 
     /* banner section  */
@@ -176,7 +179,86 @@
         text-decoration: none;
     }
 }
-@media only screen and (min-width: 375.99px) and (max-width: 425px){}
+@media only screen and (min-width: 375.99px) and (max-width: 425px){
+    .container{
+        width: 90%;
+    }
+    /* header  */
+    .header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .menu{
+        /* margin: 0 auto; */
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu a:first-child {
+        margin-left: 0;
+    }
+    .menu a:last-child {
+        margin-left: 0;
+    }
+    #smallResume{
+        display: none;
+    }
+    
+
+    /* banner section  */
+    .banner {
+        padding: 60px 0;
+    }
+    .banner_content {
+        display: block;
+    }
+    .banner_text {
+        text-align: center;
+    }
+    .welcomeText {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .banner_text h2 {
+        font-size: 40px;
+    }
+    .banner_text h5 {
+        font-size: 23px;
+    }
+    .banner_text p {
+        padding: 0 0% 0 0;
+        margin: 30px 0 0 0;
+    }
+    .banner_img {
+        margin-top: 35px;
+    }
+    .socialMedia {
+        margin-top: 50px;
+    }
+    .socialMedia a {
+        margin: 13px;
+        font-size: 23px;
+    }
+
+    /* portfolio  */
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolioCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card h2 {
+        font-size: 20px;
+    }
+    .contactTitle p {
+        padding: 0 3% 0 0;
+    }
+    #resumeBtn {
+        margin: 50px 0;
+    }
+    #resumeBtn a{
+        text-decoration: none;
+    }
+}
 /* @media only screen and (max-width: 576px){ */
 @media only screen and (min-width: 425.99px) and (max-width: 576px){
     .container{
