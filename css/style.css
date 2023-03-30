@@ -89,6 +89,12 @@ header{
     font-weight: 500;
     padding: 0 40% 0 0;
 }
+#resumeBtn {
+    margin: 50px 0;
+}
+#resumeBtn a{
+    text-decoration: none;
+}
 .socialMedia{
     text-align: center;
     margin-top: 170px;

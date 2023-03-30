@@ -53,6 +53,12 @@
     .banner_img {
         margin-top: 35px;
     }
+    #resumeBtn {
+        margin: 50px 0;
+    }
+    #resumeBtn a{
+        text-decoration: none;
+    }
     .socialMedia {
         margin-top: 50px;
     }
@@ -79,9 +85,6 @@
     /* contact section  */
     .contact {
         padding: 50px 0;
-    }
-    .contactTitle {
-        /* text-align: center; */
     }
     .contactTitle p {
         padding: 0;
@@ -218,6 +221,12 @@
     }
     .banner_img {
         margin-top: 35px;
+    }
+    #resumeBtn {
+        margin: 50px 0;
+    }
+    #resumeBtn a{
+        text-decoration: none;
     }
     .socialMedia {
         margin-top: 50px;
